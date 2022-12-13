@@ -51,4 +51,4 @@ with open('bildings', 'rt') as file:
     csv_in = csv.reader(file)
     bildings = [Bilding.from_tuple(bilding) for bilding in csv_in]
 for bilding in bildings:    
-    print(bilding) 
+    print(bilding)
