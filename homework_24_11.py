@@ -53,3 +53,4 @@ with open('bildings', 'rt') as file:
 
 for bilding in bildings:    
     print(bilding)
+ 
